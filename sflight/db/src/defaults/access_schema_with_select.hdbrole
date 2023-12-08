@@ -4,7 +4,11 @@
     "schema_privileges": [
       {
         "privileges": [
-          "SELECT"
+          "CREATE TEMPORARY TABLE",
+          "EXECUTE",
+          "SELECT",
+          "SELECT CDS METADATA",
+          "SELECT METADATA"
         ]
       }
     ]

@@ -5,6 +5,7 @@
                 {
                     "schema": "ZSFLIGHT_1",
                     "roles": [
+                        "ROLE_CC_SFLIGHT_WITHGRANT#",
                         "ROLE_SELECTWITHGRANT#"
                     ]
                 }
@@ -15,6 +16,7 @@
                 {
                     "schema": "ZSFLIGHT_1",
                     "roles": [
+                        "ROLE_CC_SFLIGHT",
                         "ROLE_SELECT"
                     ]
                 }
