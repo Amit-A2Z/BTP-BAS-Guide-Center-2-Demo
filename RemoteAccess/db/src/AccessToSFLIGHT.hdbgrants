@@ -1,0 +1,24 @@
+{
+    "UPS": {
+        "object_owner": { // assignments in this section are done to the object owner of the deployed objects. Assign SELECT WITH GRANT OPTION on objects that should be used in calculation views
+            "schema_roles": [
+                {
+                    "schema": "ZSFLIGHT_1",
+                    "roles": [
+                        "ROLE_SELECTWITHGRANT#"
+                    ]
+                }
+            ]
+        },
+        "application_user": { // assignments in this section are done to the application users that are e.g., used during data preview. Assign SELECT on objects that should be used in calculation views
+            "schema_roles": [
+                {
+                    "schema": "ZSFLIGHT_1",
+                    "roles": [
+                        "ROLE_SELECT"
+                    ]
+                }
+            ]
+        }
+    }
+}

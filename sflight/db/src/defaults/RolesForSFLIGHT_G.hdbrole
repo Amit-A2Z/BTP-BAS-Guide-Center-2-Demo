@@ -1,0 +1,23 @@
+{
+	"role": {
+		"name": "ROLE_CC_SFLIGHT_WITHGRANT#",
+		"schema_privileges": [
+			{
+				"privileges": [
+					"CREATE TEMPORARY TABLE",
+					"EXECUTE",
+					"SELECT",
+					"SELECT CDS METADATA",
+					"SELECT METADATA"
+				],
+				"privileges_with_grant_option": [
+					"CREATE TEMPORARY TABLE",
+					"EXECUTE",
+					"SELECT",
+					"SELECT CDS METADATA",
+					"SELECT METADATA"
+				]
+			}
+		]
+	}
+}

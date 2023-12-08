@@ -1,0 +1,16 @@
+{
+	"role": {
+		"name": "ROLE_CC_SFLIGHT",
+		"schema_privileges": [
+			{
+				"privileges": [
+					"CREATE TEMPORARY TABLE",
+					"EXECUTE",
+					"SELECT",
+					"SELECT CDS METADATA",
+					"SELECT METADATA"
+				]
+			}
+		]
+	}
+}

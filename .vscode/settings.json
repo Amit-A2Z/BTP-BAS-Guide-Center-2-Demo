@@ -1,0 +1,7 @@
+{
+    "files.watcherExclude": {
+        "**/node_modules/*/**": false,
+        "**/node_modules/[!@]*/**/*": true
+    },
+    "SAP HANA Database Artifacts.displaySapWebAnalyticsStartupNotification": false
+}

@@ -1,0 +1,8 @@
+{
+  "S_PASSENGERS": {
+    "target": {
+      "object": "PASSENGERS",
+      "schema": "ZSFLIGHT_1"
+    }
+  }
+}
